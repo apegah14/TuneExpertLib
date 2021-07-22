@@ -1,0 +1,75 @@
+LIBRARY     N1231B.DLL
+
+EXPORTS
+    N1231BClearPathErrorAll         = _N1231BClearPathErrorAll           ; _N1231BClearPathErrorAll
+    N1231BClearStatusAll            = _N1231BClearStatusAll              ; _N1231BClearStatusAll
+    N1231BClearStatusBits           = _N1231BClearStatusBits             ; _N1231BClearStatusBits
+    N1231BClose                     = _N1231BClose                       ; _N1231BClose
+    N1231BDefaultDevice             = _N1231BDefaultDevice               ; _N1231BDefaultDevice
+    N1231BEnableJtagProgram         = _N1231BEnableJtagProgram           ; _N1231BEnableJtagProgram
+    N1231BFind                      = _N1231BFind                        ; _N1231BFind
+    N1231BGetConfig                 = _N1231BGetConfig                   ; _N1231BGetConfig
+    N1231BGetErrStr                 = _N1231BGetErrStr                   ; _N1231BGetErrStr
+    N1231BGetFPGAIds                = _N1231BGetFPGAIds                  ; _N1231BGetFPGAIds
+    N1231BGetFPGARevs               = _N1231BGetFPGARevs                 ; _N1231BGetFPGARevs
+    N1231BGetFilter                 = _N1231BGetFilter                   ; _N1231BGetFilter
+    N1231BGetGeLtDirections         = _N1231BGetGeLtDirections           ; _N1231BGetGeLtDirections
+    N1231BGetGeLtStatus             = _N1231BGetGeLtStatus               ; _N1231BGetGeLtStatus
+    N1231BGetGeLtThresholds         = _N1231BGetGeLtThresholds           ; _N1231BGetGeLtThresholds
+    N1231BGetGlobalInterruptEnable  = _N1231BGetGlobalInterruptEnable    ; _N1231BGetGlobalInterruptEnable
+    N1231BGetHdwIoSetup             = _N1231BGetHdwIoSetup               ; _N1231BGetHdwIoSetup
+    N1231BGetHdwRev                 = _N1231BGetHdwRev                   ; _N1231BGetHdwRev
+    N1231BGetInterruptMask          = _N1231BGetInterruptMask            ; _N1231BGetInterruptMask
+    N1231BGetLibraryRev             = _N1231BGetLibraryRev               ; _N1231BGetLibraryRev
+    N1231BGetPDClockControl         = _N1231BGetPDClockControl           ; _N1231BGetPDClockControl
+    N1231BGetRawPosVel              = _N1231BGetRawPosVel                ; _N1231BGetRawPosVel
+    N1231BGetRawPosVelAll           = _N1231BGetRawPosVelAll             ; _N1231BGetRawPosVelAll
+    N1231BGetRawXAxisSample         = _N1231BGetRawXAxisSample           ; _N1231BGetRawXAxisSample
+    N1231BGetRawXAxisSampleAll      = _N1231BGetRawXAxisSampleAll        ; _N1231BGetRawXAxisSampleAll
+    N1231BGetRawXAxisSampleAllArray = _N1231BGetRawXAxisSampleAllArray   ; _N1231BGetRawXAxisSampleAllArray
+    N1231BGetRawXSampleAll          = _N1231BGetRawXSampleAll            ; _N1231BGetRawXSampleAll
+    N1231BGetRawXSampleAllArray     = _N1231BGetRawXSampleAllArray       ; _N1231BGetRawXSampleAllArray
+    N1231BGetRawXSysSample          = _N1231BGetRawXSysSample            ; _N1231BGetRawXSysSample
+    N1231BGetRawXSysSampleAll       = _N1231BGetRawXSysSampleAll         ; _N1231BGetRawXSysSampleAll
+    N1231BGetRawXSysSampleAllArray  = _N1231BGetRawXSysSampleAllArray    ; _N1231BGetRawXSysSampleAllArray
+    N1231BGetStatus                 = _N1231BGetStatus                   ; _N1231BGetStatus
+    N1231BOpen                      = _N1231BOpen                        ; _N1231BOpen
+    N1231BPciInterruptAttach        = _N1231BPciInterruptAttach          ; _N1231BPciInterruptAttach
+    N1231BPciInterruptDetach        = _N1231BPciInterruptDetach          ; _N1231BPciInterruptDetach
+    N1231BPciInterruptEnable        = _N1231BPciInterruptEnable          ; _N1231BPciInterruptEnable
+    N1231BPciInterruptWait          = _N1231BPciInterruptWait            ; _N1231BPciInterruptWait
+
+    N1231BpollRead1AxisPos32        = _N1231BpollRead1AxisPos32          ; _N1231BpollRead1AxisPos32
+    N1231BpollReadSysPos32          = _N1231BpollReadSysPos32            ; _N1231BpollReadSysPos32
+    N1231BpollRead1AxisPosVel       = _N1231BpollRead1AxisPosVel         ; _N1231BpollRead1AxisPosVel
+    N1231BpollRead3AxisPosVel       = _N1231BpollRead3AxisPosVel         ; _N1231BpollRead3AxisPosVel
+    N1231BpollReadSysPosVel         = _N1231BpollReadSysPosVel           ; _N1231BpollReadSysPosVel
+    N1231BpolltsRead1AxisPos32      = _N1231BpolltsRead1AxisPos32        ; _N1231BpolltsRead1AxisPos32
+    N1231BpolltsReadSysPos32        = _N1231BpolltsReadSysPos32          ; _N1231BpolltsReadSysPos32
+    N1231BpolltsRead1AxisPosVel     = _N1231BpolltsRead1AxisPosVel       ; _N1231BpolltsRead1AxisPosVel
+    N1231BpolltsRead3AxisPosVel     = _N1231BpolltsRead3AxisPosVel       ; _N1231BpolltsRead3AxisPosVel
+    N1231BpolltsReadSysPosVel       = _N1231BpolltsReadSysPosVel         ; _N1231BpolltsReadSysPosVel
+
+    N1231BPresetRaw                 = _N1231BPresetRaw                   ; _N1231BPresetRaw
+    N1231BPresetRawAll              = _N1231BPresetRawAll                ; _N1231BPresetRawAll
+    N1231BReadJtagBit               = _N1231BReadJtagBit                 ; _N1231BReadJtagBit
+    N1231BReadRawPos                = _N1231BReadRawPos                  ; _N1231BReadRawPos
+    N1231BReadRawPresetRegister     = _N1231BReadRawPresetRegister       ; _N1231BReadRawPresetRegister
+    N1231BReadRawVel                = _N1231BReadRawVel                  ; _N1231BReadRawVel
+    N1231BReadRegisterLong          = _N1231BReadRegisterLong            ; _N1231BReadRegisterLong
+    N1231BReadRegisterWord          = _N1231BReadRegisterWord            ; _N1231BReadRegisterWord
+    N1231BSamplePosVel              = _N1231BSamplePosVel                ; _N1231BSamplePosVel
+    N1231BSetConfig                 = _N1231BSetConfig                   ; _N1231BSetConfig
+    N1231BSetFilter                 = _N1231BSetFilter                   ; _N1231BSetFilter
+    N1231BSetGeLtDirections         = _N1231BSetGeLtDirections           ; _N1231BSetGeLtDirections
+    N1231BSetGeLtThresholds         = _N1231BSetGeLtThresholds           ; _N1231BSetGeLtThresholds
+    N1231BSetGlobalInterruptEnable  = _N1231BSetGlobalInterruptEnable    ; _N1231BSetGlobalInterruptEnable
+    N1231BSetHdwIoSetup             = _N1231BSetHdwIoSetup               ; _N1231BSetHdwIoSetup
+    N1231BSetInterruptMask          = _N1231BSetInterruptMask            ; _N1231BSetInterruptMask
+    N1231BSetPDClockControl         = _N1231BSetPDClockControl           ; _N1231BSetPDClockControl
+    N1231BSyncPDClks                = _N1231BSyncPDClks                  ; _N1231BSyncPDClks
+    N1231BWriteJtagBits             = _N1231BWriteJtagBits               ; _N1231BWriteJtagBits
+    N1231BWriteRawPresetRegister    = _N1231BWriteRawPresetRegister      ; _N1231BWriteRawPresetRegister
+    N1231BWriteRegisterLong         = _N1231BWriteRegisterLong           ; _N1231BWriteRegisterLong
+    N1231BWriteRegisterWord         = _N1231BWriteRegisterWord           ; _N1231BWriteRegisterWord
+    ___CPPdebugHook                  @57  ; ___CPPdebugHook
