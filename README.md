@@ -8,7 +8,7 @@ Therefor, this cross-platform library was created to solve this issue by having 
 ## Compiling
 ### Dependencies
 There are a few dependencies that should be noted:
-- A C/C++ compiler (we recommend just installing build-essentials for Linux and MinGW for Windows)
+- A C/C++ compiler (we recommend just installing build-essentials for Linux and MinGW64 for Windows)
 - CMake
 - make (Linux)
 - Ninja (Linux)
@@ -16,12 +16,14 @@ There are a few dependencies that should be noted:
 
 A CMakeLists.txt file is include in the project with the proper, in addition to all libraries necessary for compilation and expansion of this project.
 
-`git clone ()
-cd ()
-cmake
-make`
+`git clone https://github.com/apegah14/TuneExpertLib`
+`cd TuneExpertLib`
+`cmake`
+`make`
 
 CMake presets can also be used if prefered
 
 ## Issues
 Currently the only way this library can be compiled to work with Matlab on Windows is through the use of gcc. MSVC (from Visual Studio) has some major issues that we have not been able to solve when attempting to load the library in Matlab.
+
+Please ensure that a 64-bit compiler is being used as well
