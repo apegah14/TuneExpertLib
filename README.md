@@ -16,12 +16,19 @@ There are a few dependencies that should be noted:
 
 A CMakeLists.txt file is include in the project with the proper, in addition to all libraries necessary for compilation and expansion of this project.
 
+### Linux
 `git clone https://github.com/apegah14/TuneExpertLib`
+
 `cd TuneExpertLib`
+
 `cmake`
+
 `make`
 
 CMake presets can also be used if prefered
+
+### VSCode
+This is generally the easiest way to compile this library on both Windows and Linux. The CMake extension is required to build it within VSCode and a build folder will be created with the library as well as make files nicely packaged.
 
 ## Issues
 Currently the only way this library can be compiled to work with Matlab on Windows is through the use of gcc. MSVC (from Visual Studio) has some major issues that we have not been able to solve when attempting to load the library in Matlab.

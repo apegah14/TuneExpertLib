@@ -9,11 +9,11 @@
 #endif
 
 #ifdef linux
-	#include "TypesForN1231B.h"
-	#include "WinTypes.h"
+	#include "../include/TypesForN1231B.h"
+	#include "../include/WinTypes.h"
 #endif
 
-#include "N1231B.h"
+#include "../include/N1231B.h"
 
 #include <stdbool.h>
 
